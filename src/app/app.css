@@ -1,0 +1,82 @@
+.contenedor {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.contador {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.tarjeta {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.tarjeta h2 {
+  margin-top: 0;
+}
+
+button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:not([disabled]) {
+  background-color: #4caf50;
+  color: white;
+}
+
+button[disabled] {
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
+}
+
+.confirmacion {
+  color: #2e7d32;
+  font-weight: bold;
+}
+.limite {
+  text-align: center;
+  color: #c62828;
+  font-weight: bold;
+}
+
+.cancelar {
+  background-color: #e53935;
+  color: white;
+  margin-top: 8px;
+}
+
+.resumen {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 16px;
+  margin-top: 20px;
+}
+
+.cancelar-todas {
+  margin-top: 12px;
+  background-color: #e53935;
+  color: white;
+}
+
+.cancelar-todas[disabled] {
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
+}
